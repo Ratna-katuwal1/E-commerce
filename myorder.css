@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Lora&family=Playfair:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Rubik:wght@300;400&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playfair", serif;
+}
+
+header {
+  color: #fff;
+  padding: 10px 0;
+}
+
+.header-top{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  justify-content: space-between;
+  line-height: 42px;
+  margin-left: 50px;
+  margin-top: -7px;
+}
+
+.header-top ul{
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.header-top ul li{
+  display: inline-block;
+}
+
+.header-top ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+.header-top ul li a:hover{
+  color: #7949f9;
+}
+
+.logo{
+  width: 175px;
+  height: 64px;
+  margin-right: 32px;
+  padding-left: 12px;
+  position: relative;
+  display: flex;
+}
+
+.nav-bar ul{
+  line-height: 91px;
+  gap: 150px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 480px;
+  margin-top: -84px;
+  display: flex;
+  list-style: none;
+
+}
+
+.nav-bar ul li{
+  display: inline-block;
+}
+
+.nav-bar ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-bar ul li a:hover{
+  color: #7c8999;
+}
+
+.header-main{
+  background-color: #453c5c;
+  padding: 6px 0;
+}
+
+form{
+  position: relative;
+  width: 600px;
+  margin-left: 500px;
+}
+
+form.search input{
+  line-height: 52px;
+  padding: 0 11px 0 72px;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+form.search :where(span, button){
+  position: absolute;
+  top: 0;
+  padding: 0 24px;
+  font-size: 16px;
+  color: #7c8999;
+  height: 100%;
+}
+
+form.search button{
+  right: 0;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #965ea5;
+  color: #fff;
+  border-radius: 0 7px 7px 0;
+  cursor: pointer;
+  transition: #965ea5 0.3s;
+}
+
+form.search button:hover{
+  background-color: #7c43ad;
+}
+
+form.search .icon-large{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 26px;
+  font-weight: normal;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f9f9f9;
+  padding: 0px 390px;
+  color: #333;
+  margin-top: 400px;
+}
+
+.widgets .flexwrap {
+  display: flex;
+  flex-wrap: initial;
+}
+
+.widgets .row {
+  width: 30%;
+  padding: 0 120px;
+}
+
+.widgets .item h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.item.mini-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item.mini-links ul li {
+  margin-bottom: 5px;
+}
+
+.item.mini-links ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.item.mini-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-info{
+  padding: 20px 0 0;
+}
+
+.footer-info .wrapper .flexcol{
+  align-items: center;
+  gap: 0;
+}
+
+.socials{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.footer-info .logo img{
+  margin-left: 230px;
+}
+
+.footer-info .flexitem{
+  margin-left: 132px;
+  align-items: center;
+  display: flex;
+  margin-top: -18px;
+}
+
+.footer-info ul li{
+  list-style: none;
+}
+
+.footer-info ul li a{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  background-color: #f2f3f5;
+  border-radius: 50%;
+  margin: 4px;
+  transition: #f2f3f5 all ease .2s;
+}
+
+.footer-info ul li a:active{
+  scale: 0.9;
+}
+
+.footer-info ul li a:hover{
+  background-color: #e5e8ec;
+}
+
+.footer-info .mini-text{
+  text-align: center;
+  margin-top: 2px;
+}
+
+/* added */
+.container-box {
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.cart-item{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.product-list{
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  position: relative;
+  flex-direction: column;
+}
+
+.product-section{
+  border-bottom: 1px solid #ccc;
+  width: 44%;
+  margin-bottom: 30px;
+}
+
+.product-image img{
+  max-width: 150px;
+  border-radius: 10px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.product-detail{
+  margin-left: 350px;
+  margin-bottom: 40px;
+}
+
+.product-title h2{
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.product-det ul{
+  list-style: none;
+}
+
+.product-det li{
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+
+.product-remove li {
+  list-style: none;
+}
+
+.product-remove a {
+  color: #ff0000;
+  font-size: 20px;
+}
+
+.product-remove i {
+  margin-right: 5px;
+}
+
+.amount-desp{
+  position: absolute;
+  right: 0;
+  width: 45%;
+  top: 38%;
+}
+
+.summary h2 {
+  font-size: 30px;
+  margin-bottom: -20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.amount-det{
+  margin-top: 40px;
+}
+
+.amount-det ul{
+  padding: 0;
+  list-style: none;
+}
+
+.amount-det li{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.amount-det li:nth-child(3),
+.amount-det li:nth-child(5){
+  border-bottom: 2px solid #000;
+  width: 55%;
+}
+
+.amount-det li span {
+  font-weight: bold;
+  display: inline-block;
+  width: 200px;
+}
+
+.amount-det li span::after{
+  content: '\00a0';
+}
+
+.checkout {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: -70px;
+}
+
+.button{
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 100px;
+  background-color: #4C43CD;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+.button:active{
+  scale: 0.9;
+}
+
+.button:hover{
+  background-color: #2f2885;
+}

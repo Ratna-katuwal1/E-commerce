@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
+}
+
+.image {
+    flex: 2; 
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 150px;
+}
+
+.forget-form {
+    flex: 1; 
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-right: 150px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+}
+
+p {
+    color: #555;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+.otp-input-container {
+   display: flex;
+   gap: 10px;
+}
+
+.otp-input-container input {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.resend-message {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.resend-message a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.resend-message a:hover {
+    text-decoration: underline;
+}
